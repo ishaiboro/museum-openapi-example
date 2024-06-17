@@ -34,7 +34,6 @@ paths:
               examples:
                 default_example:
                   $ref: "#/components/examples/GetMuseumHoursResponseExample"
-      deprecated: true
         "400":
           $ref: '#/components/responses/BadRequest'
         "404":
@@ -69,6 +68,7 @@ paths:
           $ref: '#/components/responses/BadRequest'
         "404":
           $ref: '#/components/responses/NotFound'
+      deprecated: true
     get:
       summary: List special events
       description: Return a list of upcoming special events at the museum.
