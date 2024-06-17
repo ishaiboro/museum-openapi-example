@@ -38,6 +38,7 @@ paths:
           $ref: '#/components/responses/BadRequest'
         "404":
           $ref: '#/components/responses/NotFound'
+      deprecated: true
   /special-events:
     post:
       summary: Create special events
