@@ -34,6 +34,7 @@ paths:
               examples:
                 default_example:
                   $ref: "#/components/examples/GetMuseumHoursResponseExample"
+      deprecated: true
         "400":
           $ref: '#/components/responses/BadRequest'
         "404":
